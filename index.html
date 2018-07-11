@@ -1,59 +1,69 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>Book Website Client</title>
+<head>
+    <meta charset="utf-8">
+    <title>Book Website Client</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="js/warsztat04.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <div id="confirmation"></div>
 <div class="field" id="addBook">
-   <h2 class="label title is-4">Add new book</h2>
-      <form class="add-book-form"  id="add-book" method="post">
+    <h2 class="label title is-4">Add new book</h2>
+    <form class="add-book-form" id="add-book" method="post">
         <div class="field">
-      <label class="label">Title</label>
-      <div class="control">
-        <input id='newTitle' class="input" type="text"  name="title" placeholder="e.g. Lord of the rings">
-      </div>
-    </div>
+            <label class="label">Title</label>
+            <div class="control">
+                <input id='newTitle' class="input" type="text" name="title" placeholder="e.g. Lord of the rings">
+            </div>
+        </div>
 
-    <div class="field">
-      <label class="label">Author</label>
-      <div class="control">
-        <input id='newAuthor' class="input" type="text" name='author' placeholder="e.g J.R.R. Tolkien">
-      </div>
-    </div>
+        <div class="field">
+            <label class="label">Author</label>
+            <div class="control">
+                <input id='newAuthor' class="input" type="text" name='author' placeholder="e.g J.R.R. Tolkien">
+            </div>
+        </div>
 
-    <div class="field">
-      <label class="label">Publisher</label>
-      <div class="control">
-        <input id='newPublisher' class="input" type="text" name='publisher' placeholder="e.g. Portal">
-      </div>
-    </div>
+        <div class="field">
+            <label class="label">Publisher</label>
+            <div class="control">
+                <input id='newPublisher' class="input" type="text" name='publisher' placeholder="e.g. Portal">
+            </div>
+        </div>
 
-    <div class="field">
-      <label class="label">Genre</label>
-      <div class="control">
-        <input id='newGenre' class="input" type="text" name='genre' placeholder="e.g. fantasy">
-      </div>
-    </div>
+        <div class="field">
+            <label class="label">Genre</label>
+            <div class="control">
+                <input id='newGenre' class="input" type="text" name='genre' placeholder="e.g. fantasy">
+            </div>
+        </div>
 
-    <div class="field">
-      <label class="label">ISBN number</label>
-      <div class="control">
-        <input id='newIsbn' class="input" type="text" name='isbn' placeholder="e.g. 9788324631766">
-      </div>
-    </div>
-    <div class="control">
-      <input class="button is-success" type="submit"value="Submit">
-      <input class="button is-danger" type="reset" value="Reset">
-    </div>
-  </form>
+        <div class="field">
+            <label class="label">ISBN number</label>
+            <div class="control">
+                <input id='newIsbn' class="input" type="text" name='isbn' placeholder="e.g. 9788324631766">
+            </div>
+        </div>
+        <div class="control">
+            <input class="button is-success" type="submit" value="Submit">
+            <input class="button is-danger" type="reset" value="Reset">
+        </div>
+    </form>
 </div>
 <br>
 
-  <div id="deleteConfirmation"></div>
-  <div id="allBooks">
+<div id="deleteConfirmation"></div>
+<div id="allBooks">
 
-  </div>
+</div>
+
 <body>
 </body>
+
 </html>
