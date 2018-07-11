@@ -1,6 +1,11 @@
 $(document).ready(function(){
+
+  var allBooks = $('#allBooks');
+  allBooks();
+  addBooks();
+  
 $.ajax({
-      url: 'http://localhost:8282/books',
+      url: 'http://localhost:8080/books',
       data: '{}',
       type: 'GET',
       dataType: "json",
