@@ -19,6 +19,6 @@ $(document).ready(function(){
 //scrypt nasz
 // Porada na przyszlosc:
 // serwer serwuje jsony
-// i fron rysuje UI
+// i front rysuje UI
 
 });
